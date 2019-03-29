@@ -1,6 +1,6 @@
 dir=~/.files
 olddir=~/.files_old
-files=".zshrc .vimrc .i3 .Xresources .ssh/config"
+files=".zshrc .vimrc .i3 .Xresources .ssh/config .tmux.conf"
 
 mkdir -p $olddir
 
