@@ -43,7 +43,7 @@
  
 ! urxvt
 URxvt*cursorBlink: true
-URxvt*font: xft:monospace:size=12
+URxvt.font:xft:xos4 Terminus:size=13
 URxvt*scrollBar: false
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/firefox
