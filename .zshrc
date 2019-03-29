@@ -84,7 +84,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias rip="sudo shutdown now"
-alias ls="ls -la"
+export TERM=xterm-256color
 
-export TERM=xterm
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
