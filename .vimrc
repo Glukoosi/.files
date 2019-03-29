@@ -4,6 +4,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -13,14 +14,22 @@ Plug 'itchyny/lightline.vim'
 
 call plug#end()
 
+
 map  ; :Files<CR>
 
 
-syntax on
+inoremap <Up> <NOP>
+inoremap <Down> <NOP>
+inoremap <Left> <NOP>
+inoremap <Right> <NOP>
+
+
 set number
 set expandtab
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4
-
 set laststatus=2
+
+
+syntax on
