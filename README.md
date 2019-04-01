@@ -30,8 +30,8 @@
  -  `k` - focus(up)
  -  `l` - focus(right)
   <br/><br/>
- -  `v` - split-window horizontal
- -  `s` - split-window vertical
+ -  `w` - split-window horizontal
+ -  `q` - split-window vertical
  -  `x` - kill pane
   <br/><br/>
  -  `c` - create a new window
@@ -41,3 +41,4 @@
 
 ### vim
   - `;` - fzf
+  - `'` - Rg
