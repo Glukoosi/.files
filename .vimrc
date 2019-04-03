@@ -18,6 +18,7 @@ call plug#end()
 
 map  ; :Files<CR>
 map  ' :Rg<CR>
+imap jk <Esc>
 
 
 inoremap <Up> <NOP>
