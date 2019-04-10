@@ -1,7 +1,7 @@
 .files
 ======
 
-## Cheatseet
+## Cheatsheet
 ### zsh
  -  `Ctrl-B` - Move back one character 
  -  `Ctrl-F` - Move forward one character 
@@ -42,3 +42,4 @@
 ### vim
   - `;` - fzf
   - `'` - Rg
+  - `jk` - esc
