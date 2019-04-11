@@ -87,3 +87,8 @@ source $ZSH/oh-my-zsh.sh
 export TERM=xterm-256color
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+if type nvim > /dev/null 2>&1; then
+  alias vim='nvim'
+fi
+

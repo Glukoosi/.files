@@ -1,12 +1,10 @@
 dir=~/.files
-olddir=~/.files_old
-files=".zshrc .vimrc .i3 .Xresources .ssh/config .tmux.conf"
+files=".zshrc .vimrc .i3 .Xresources .ssh/config .tmux.conf .config/nvim/init.vim"
 
-mkdir -p $olddir
 
 cd $dir
 
 for file in $files; do
-	mv ~/$file $olddir/
-	ln -s $dir/$file ~/$file
+	mkdir -p ~/"$(dirname "$file")"
+	ln -sfn $dir/$file ~/$file
 done
