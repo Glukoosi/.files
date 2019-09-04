@@ -13,9 +13,15 @@ Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'w0rp/ale'
 call plug#end()
 
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+autocmd Filetype go setlocal noexpandtab
 
 map  ; :Files<CR>
 map  ' :Rg<CR>
