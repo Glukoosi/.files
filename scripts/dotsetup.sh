@@ -1,5 +1,5 @@
 dir=~/.files
-files=".zshrc .vimrc .i3/config .Xresources .ssh/config .tmux.conf .config/nvim/init.vim .config/alacritty/alacritty.yml"
+files=".zshrc .vimrc .i3/config .Xresources .ssh/config .tmux.conf .config/nvim/init.vim .config/alacritty/alacritty.yml .gitconfig"
 
 
 cd $dir
