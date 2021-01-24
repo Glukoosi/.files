@@ -1,6 +1,8 @@
 .files
 ======
 
+[Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Meslo)
+
 ## Cheatsheet
 ### zsh
  -  `Ctrl-B` - Move back one character 
