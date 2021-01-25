@@ -85,7 +85,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux) monospace
     #   - (Windows) Consolas
-    family: MesloLGM Nerd Font
+    family: "MesloLGS NF"
 
   # Point size
   size: 15.0
