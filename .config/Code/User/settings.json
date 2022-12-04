@@ -1,16 +1,26 @@
 {
     "vim.insertModeKeyBindings": [
-    {
-        "before": ["j", "k"],
-        "after": ["<Esc>"]
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<C-u>"],
+            "after": ["<C-u>", "z", "z"]
+        },
+        {
+            "before": ["<C-d>"],
+            "after": ["<C-d>", "z", "z"]
+        }
+    ],
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.venv/**": true
     }
-],
-"eslint.format.enable": true,
-"eslint.lintTask.enable": true,
-"files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/*/**": true,
-    "**/.venv/**": true
-}
 }

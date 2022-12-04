@@ -21,6 +21,8 @@ map  ; :Files<CR>
 map  ' :Rg<CR>
 imap jk <Esc>
 
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 
 inoremap <Up> <NOP>
 inoremap <Down> <NOP>
