@@ -23,9 +23,6 @@ if type nvim > /dev/null 2>&1; then
   alias vim='nvim'
 fi
 
-source /usr/share/doc/fzf/examples/key-bindings.zsh
-source /usr/share/doc/fzf/examples/completion.zsh
-
 alias ls='lsd'
 alias l='ls -l'
 alias la='ls -a'
