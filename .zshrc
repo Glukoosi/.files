@@ -31,3 +31,14 @@ alias lt='ls --tree'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh) # add autocomplete permanently to your zsh shell
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/usr/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/usr/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/usr/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/usr/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+export PATH="/opt/homebrew/opt/mysql-client@8.4/bin:$PATH"

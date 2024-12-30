@@ -3,7 +3,7 @@
 dir=~/.files
 files=".zshrc .vimrc .i3/config .Xresources .ssh/config
 .tmux.conf .config/nvim/init.vim .gitconfig .config/Code/User/settings.json
-.config/kitty/kitty.conf .config/starship.toml"
+.config/kitty/kitty.conf .config/ghostty/config .config/starship.toml"
 
 
 cd $dir
