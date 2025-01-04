@@ -1,4 +1,6 @@
 theme=Adventure
-font-size=17
+font-size=19
 window-height=1000
 window-width=1000
+keybind=super+b=esc:b
+keybind=super+f=esc:f

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dir=~/.files
-files=".zshrc .vimrc .i3/config .Xresources .ssh/config
+files=".zshrc .vimrc .i3/config .Xresources
 .tmux.conf .config/nvim/init.vim .gitconfig .config/Code/User/settings.json
 .config/kitty/kitty.conf .config/ghostty/config .config/starship.toml"
 
